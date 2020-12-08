@@ -1,0 +1,60 @@
+h1{
+	color: white;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	text-align: left;
+	font-size: 24pt;
+	font-style: italic;
+}
+
+p.sejarah {
+	color: white;
+	text-align: left;
+	font-size: 16pt;
+	font-style: italic;
+}
+
+h3{
+	color: white;
+	text-align: left;
+	font-size: 24pt;
+	font-style: italic;
+}
+
+p.trofi {
+	color: orange;
+	text-align: left;
+	font-size: 16pt;
+	font-style: italic;
+}
+
+h4{
+	color: white;
+	text-align: left;
+	font-size: 24pt;
+	font-style: italic;
+}
+
+.kotak {
+	padding: 50px;
+	width: 100px;
+	color: black;
+	margin: 10px;
+	background: orange;
+}
+
+#kotak {
+	padding: 50px;
+	width: 400px;
+	color: #fff;
+	margin: 10px;
+	background: blue;
+}
+body{
+	background-color: blue;
+	background-repeat: no-repeat, repeat;
+	color: white;
+}

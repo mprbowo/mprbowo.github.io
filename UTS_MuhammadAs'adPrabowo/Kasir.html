@@ -1,0 +1,75 @@
+<!-- 
+	Muhammad As'ad Prabowo
+	TI 2A
+ -->
+<html>
+<head>
+<title> Restoran Bang Jarwo </title>
+<link rel="stylesheet" type="text/css" href="tampilan.css">
+	<script src="jquery-3.5.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#btn1").click(function() {
+			alert("ID Pembeli : " + $("#test1").val())
+			alert("Nama Pembeli : " + $("#test2").val())
+			alert("Makanan : " + $("#test3").val())
+			alert("Jumlah Pemesanan : " + $("#test4").val())
+			});
+		});
+	</script>
+</head>
+<body>
+
+<table border ="1" height="700" width="900" align="center" cellpadding="1" cellspacing="8" >
+<tr height="80">
+	<td colspan="2" background="Images/biru.jpg"> <h1> Restoran Bang Jarwo </h1></td>
+</tr>
+
+<tr height="60">
+	<td colspan="2"> 
+	<a href="Restoran.html"> Beranda </a>
+	<a href="Kasir.html"> Kasir Pemesanan</a>
+	<a href="InfoLebih.html">Info Lebih Lanjut </a>
+	</td>
+</tr>
+
+<tr>
+	<td width="400" align="left" valign="top" background="Images/biru.jpg"> 
+	<p> <b> Lokasi > Indonesia > Jawa Timur > Kota Malang > Restoran </b></p>
+	<br> <br> <br>
+	<h1 align="center"> Tempat Pemesanan </h1> 
+	<form action="Kasir.html" method="get">
+	<br>
+	<p> Id Pembeli : <input type="text" id="test1"></p>
+	<p> Nama Pembeli : <input type="text" id="test2"></p>
+	<p>Status Pembeli</p>
+      <p><input type='radio' name='StatusPembeli' value='Member' />Member</p>
+      <p><input type='radio' name='StatusPembeli' value='NonMember' />Non-Member</p>
+	<p> Makanan : <input type="text" id="test3"></p>
+	<p> Jumlah Pemesanan : <input type="text" id="test4"></p>
+	<button id="btn1">Pesan</button>
+</td>
+
+
+<td valign="top" background="Images/biru.jpg" align="center">
+	<h1 > Menu Makanan</h1>
+	<h1> Menu Burger</h1>  
+	<img src="Images/MenuBurger.jpg" width="360"> 
+	<h1> Menu Pizza</h1>
+	<img src="Images/MenuPizza.jpeg" width="360" height="360">
+	<h1> Menu Ayam</h1>
+	<img src="Images/MenuAyam.jpeg" width="360" height="360">
+	<br> <br>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" > <h1 align="center">
+Nama : Muhammad As'ad Prabowo <br> <br>
+Kelas : TI 2A 
+</h1>
+</td>
+</tr>
+</table>
+</body>
+</html>

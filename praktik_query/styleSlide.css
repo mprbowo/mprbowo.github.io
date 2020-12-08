@@ -1,0 +1,11 @@
+#kotak2, #flip{
+    padding: 5px;
+    text-align: center;
+    background-color: coral;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+#kotak2{
+    padding: 50px;
+}
